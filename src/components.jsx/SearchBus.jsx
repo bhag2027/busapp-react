@@ -86,7 +86,7 @@ const SearchBus = () => {
                                     return <tr>
                                     <td>{value.bname}</td>
                                     <td>{value.route}</td>
-                                    <td>{value.busno}</td>
+                                    <td>{value.busNo}</td>
                                     <td>{value.dname}</td>
                                    
                                     <td><button className="btn btn-danger" onClick={()=>{deleteCourse(value._id)}}>Delete</button></td>

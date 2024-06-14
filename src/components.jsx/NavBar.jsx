@@ -12,7 +12,7 @@ const NavBar = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-      <Link class="nav-link active" aria-current="page" to="/">Login</Link>
+     
         <Link class="nav-link active" aria-current="page" to="/add">Add </Link>
         <Link class="nav-link active" aria-current="page" to="/reg">Register </Link>
         <Link class="nav-link active" aria-current="page" to="/search"> Search </Link>
