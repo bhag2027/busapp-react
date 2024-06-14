@@ -6,7 +6,7 @@ const NavBar = () => {
     <div>
          <nav class="navbar navbar-expand-lg bg-success">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">BUS</a>
+    <Link class="navbar-brand" to="#">BUS</Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -15,6 +15,7 @@ const NavBar = () => {
       <Link class="nav-link active" aria-current="page" to="/">Login</Link>
         <Link class="nav-link active" aria-current="page" to="/add">Add </Link>
         <Link class="nav-link active" aria-current="page" to="/reg">Register </Link>
+        <Link class="nav-link active" aria-current="page" to="/search"> Search </Link>
        
        
        
