@@ -5,6 +5,7 @@ import AddUser from './components.jsx/AddUser';
 import LoginUser from './components.jsx/LoginUser';
 import AddBus from './components.jsx/AddBus';
 import SearchBus from './components.jsx/SearchBus';
+import ViewallBus from './components.jsx/ViewallBus';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <Route path='/add' element={<AddBus/>}/>
       <Route path='/reg' element={<AddUser/>}/>
       <Route path='/search' element={<SearchBus/>}/>
+      <Route path='/view' element={<ViewallBus/>}/>
       
      
      </Routes>
