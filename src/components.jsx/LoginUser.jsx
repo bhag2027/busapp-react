@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import NavBar from './NavBar'
 
 const LoginUser = () => {
 
@@ -36,6 +37,7 @@ const LoginUser = () => {
   }
   return (
     <div>
+
            <h1 align="center"><u>SIGNIN</u></h1>
             <div className="container">
                 <div class="card" >
